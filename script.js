@@ -1,6 +1,4 @@
-// ========================================
 // LISTA DE PERSONAGENS
-// ========================================
 
 const personagens = [
    {
@@ -17,7 +15,7 @@ const personagens = [
    },
 
    {
-    nome: "Jacqueline.png",
+    nome: "Jacqueline",
     imagem: "imagens/04-jacqueline.png",
    },
    {
@@ -58,9 +56,7 @@ const personagens = [
 ];
 
 
-// ========================================
 // ELEMENTOS HTML
-// ========================================
 
 const quantidade = document.getElementById("quantidade");
 
@@ -71,9 +67,7 @@ const btnLimpar = document.getElementById("btnLimpar");
 const resultado = document.getElementById("resultadoPersonagens");
 
 
-// ========================================
 // FUNÇÃO DE SORTEIO
-// ========================================
 
 function sortear() {
 
@@ -117,9 +111,7 @@ function sortear() {
 }
 
 
-// ========================================
 // FUNÇÃO PARA LIMPAR
-// ========================================
 
 function limpar() {
 
@@ -132,9 +124,7 @@ function limpar() {
 }
 
 
-// ========================================
 // EVENTOS
-// ========================================
 
 btnSortear.addEventListener("click", sortear);
 
