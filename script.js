@@ -5,10 +5,12 @@ const personagens = [
     nome: "Akachi",
     imagem: "imagens/01-akachi.png",
    },
+
    {
     nome: "Charlie",
     imagem: "imagens/02-charlie.png"
    },
+
    {
     nome: "Diana",
     imagem:"imagens/03-diana.png",
@@ -18,10 +20,12 @@ const personagens = [
     nome: "Jacqueline",
     imagem: "imagens/04-jacqueline.png",
    },
+
    {
     nome: "Jim",
     imagem: "imagens/05-jim.png",
    },
+
    {
     nome: "Leo",
     imagem: "imagens/06-leo.png",
@@ -31,27 +35,103 @@ const personagens = [
     nome: "Lily",
     imagem: "imagens/07-lily.png",
    },
+
    {
     nome: "Lola",
     imagem: "imagens/08-lola.png",
    },
+
    {
     nome: "Mark",
     imagem: "imagens/09-mark.png",
    },
+
    {
     nome: "Norman",
     imagem: "imagens/10-norman.png",
    },
+
    {
     nome: "Silas",
-    imagem: "imagens/11-silas.png"
+    imagem: "imagens/11-silas.png",
    },
+
    {
     nome: "Trish",
-    imagem: "imagens/12-trish.png"
+    imagem: "imagens/12-trish.png",
+   },
+
+   // Montanhas da Loucura //
+   {
+    nome: "Agnes",
+    imagem: "imagens/13-agnes.png",
+   },
+
+   {
+    nome: "Daisy",
+    imagem: "imagens/14-daisy.png",
+   },
+
+   {
+    nome: "Finn",
+    imagem: "imagens/15-finn.png",
+   },
+
+   {
+    nome: "George",
+    imagem: "imagens/16-george.png",
+   },
+
+   {
+    nome: "Patrice",
+    imagem: "imagens/17-patrice.png",
+   },
+
+   {
+    nome: "Tommy",
+    imagem: "imagens/18-tommy.png",
+   },
+
+   {
+    nome: "Ursula",
+    imagem: "imagens/19-ursula.png",
+   },
+
+   {
+    nome: "Wilson",
+    imagem: "imagens/20-wilson.png",
+   },
+
+   // Vestígios Estranhos //
+   {
+    nome: "Marie",
+    imagem: "imagens/21-marie.png",
+   },
+
+   {
+    nome: "Liso",
+    imagem: "imagens/22-liso.png",
+   },
+
+   {
+    nome: "Tony",
+    imagem: "imagens/23-tony.png",
+   },
+
+   {
+    nome: "Zoey",
+    imagem: "imagens/24-zoey.png",
    }
 
+   // Sob as Piramides //
+
+   // Sinais de Carcosa //
+
+   // As Terras Oníricas //
+
+   // Cidades em Ruinas //
+
+   // Máscaras de Nyarlathotep //
     
 ];
 
