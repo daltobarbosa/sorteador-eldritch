@@ -247,9 +247,41 @@ const personagens = [
     imagem: "imagens/48-roland.png",
    },
 
-
    // Máscaras de Nyarlathotep //
+   {
+    nome: "Agatha",
+    imagem: "imagens/49-agatha.png",
+   },
+
+   {
+    nome: "Calvin",
+    imagem: "imagens/50-calvin.png",
+   },
+
+   {
+    nome: "Carson",
+    imagem: "imagens/51-carson.png",
+   },
+
+   {
+    nome: "Daniela",
+    imagem: "imagens/52-daniela.png",
+   },
+
+   {
+    nome: "Mateo",
+    imagem: "imagens/53-mateo.png",
+   },
+
+   {
+    nome: "Preston",
+    imagem: "imagens/54-preston.png",
+   },
     
+   {
+    nome: "Sefina",
+    imagem: "imagens/55-sefina.png",
+   }
 ];
 
 
