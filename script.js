@@ -225,7 +225,28 @@ const personagens = [
     nome: "William",
     imagem: "imagens/44-william.png",
    },
+
    // Cidades em Ruinas //
+   {
+    nome: "Peter",
+    imagem: "imagens/45-peter.png",
+   },
+
+   {
+    nome: "Bob",
+    imagem: "imagens/46-bob.png",
+   },
+
+   {
+    nome: "Rita",
+    imagem: "imagens/47-rita.png",
+   },
+
+   {
+    nome: "Roland",
+    imagem: "imagens/48-roland.png",
+   },
+
 
    // Máscaras de Nyarlathotep //
     
