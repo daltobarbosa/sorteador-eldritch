@@ -186,7 +186,45 @@ const personagens = [
    },
 
    // As Terras Oníricas //
+   {
+    nome: "Amanda",
+    imagem: "imagens/37-amanda.png",
+   },
 
+   {
+    nome: "Carolyn",
+    imagem: "imagens/38-carolyn.png",
+   },
+   
+   {
+    nome: "Darrell",
+    imagem: "imagens/39-darrell.png",
+   },
+
+   {
+    nome: "Gloria",
+    imagem: "imagens/40-gloria.png",
+   },
+
+   {
+    nome: "Kate",
+    imagem: "imagens/41-kate.png",
+   },
+
+   {
+    nome: "Luke",
+    imagem: "imagens/42-luke.png",
+   },
+
+   {
+    nome: "Vincent",
+    imagem: "imagens/43-vincent.png",
+   },
+
+   {
+    nome: "William",
+    imagem: "imagens/44-william.png",
+   },
    // Cidades em Ruinas //
 
    // Máscaras de Nyarlathotep //
