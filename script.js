@@ -121,11 +121,51 @@ const personagens = [
    {
     nome: "Zoey",
     imagem: "imagens/24-zoey.png",
-   }
+   },
 
    // Sob as Piramides //
+   {
+    nome:"Hank",
+    imagem: "imagens/25-hank.png",
+   },
+
+   {
+    nome: "Harvey",
+    imagem: "imagens/26-harvey.png",
+   },
+
+   {
+    nome: "Joe",
+    imagem: "imagens/27-joe.png",
+   },
+
+   {
+    nome: "Mandy",
+    imagem: "imagens/28-mandy.png",
+   },
+
+   {
+    nome: "Minh",
+    imagem: "imagens/29-minh.png",
+   },
+
+   {
+    nome: "Mary",
+    imagem: "imagens/30-mary.png",
+   },
+
+   {
+    nome: "Monterey",
+    imagem: "imagens/31-monterey.png",
+   },
+
+   {
+    nome: "Rex",
+    imagem: "imagens/32-rex.png",
+   },
 
    // Sinais de Carcosa //
+   
 
    // As Terras Oníricas //
 
