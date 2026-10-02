@@ -165,7 +165,25 @@ const personagens = [
    },
 
    // Sinais de Carcosa //
-   
+   {
+    nome: "Dexter",
+    imagem: "imagens/33-dexter.png",
+   },
+
+   {
+    nome: "Jenny",
+    imagem: "imagens/34-jenny.png",
+   },
+
+   {
+    nome: "Michael",
+    imagem: "imagens/35-michael.png",
+   },
+
+   {
+    nome: "Wendy",
+    imagem: "imagens/36-wendy.png",
+   },
 
    // As Terras Oníricas //
 
