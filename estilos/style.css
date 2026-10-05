@@ -1,16 +1,8 @@
-/* =========================
-   RESET
-========================= */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-/* =========================
-   BODY
-========================= */
 
 body {
   min-height: 100vh;
@@ -28,10 +20,6 @@ body {
 
   padding: 20px;
 }
-
-/* =========================
-   CONTAINER
-========================= */
 
 .container {
   width: 100%;
@@ -52,9 +40,6 @@ body {
     inset 0 0 40px rgba(255, 255, 255, 0.02);
 }
 
-/* =========================
-   HEADER
-========================= */
 
 .header {
   text-align: center;
@@ -76,9 +61,9 @@ body {
     0 0 15px rgba(255, 255, 255, 0.25);
 }
 
-/* =========================
-   CONTROLES
-========================= */
+/*
+  CONTROLES
+*/
 
 .sorteio {
   display: flex;
@@ -136,9 +121,9 @@ body {
   cursor: pointer;
 }
 
-/* =========================
-   BOTÕES
-========================= */
+/*
+  BOTÕES
+*/
 
 .botoes {
   display: flex;
@@ -198,9 +183,9 @@ body {
   color: white;
 }
 
-/* =========================
-   RESULTADO
-========================= */
+/*
+  RESULTADO
+*/
 
 .resultado {
   position: relative;
@@ -222,9 +207,9 @@ body {
   color: #cbd2da;
 }
 
-/* =========================
-   GRID DOS PERSONAGENS
-========================= */
+/*
+ GRID DOS PERSONAGENS
+*/
 
 .personagens {
   width: 100%;
@@ -237,65 +222,65 @@ body {
   gap: 15px;
 }
 
-/* =================================
-   1 PERSONAGEM
-================================= */
+/* 
+  1 PERSONAGEM
+*/
 
 .quantidade-1 {
-  grid-template-columns: 280px;
+  grid-template-columns: 220px;
 }
 
-/* =================================
-   2 PERSONAGENS
-================================= */
+/* 
+ 2 PERSONAGENS
+*/
 
 .quantidade-2 {
   grid-template-columns: repeat(2, 220px);
 }
 
-/* =================================
-   3 PERSONAGENS
-================================= */
+/* 
+ 3 PERSONAGENS
+*/
 
 .quantidade-3 {
-  grid-template-columns: repeat(3, 190px);
+  grid-template-columns: repeat(3, 220px);
 }
 
-/* =================================
-   4 PERSONAGENS
-================================= */
+/* 
+ 4 PERSONAGENS
+*/
 
 .quantidade-4 {
-  grid-template-columns: repeat(2, 220px);
+  grid-template-columns: repeat(4, 220px);
 }
 
-/* =================================
-   5 PERSONAGENS
-================================= */
+/*
+  5 PERSONAGENS
+*/
 
 .quantidade-5 {
   grid-template-columns: repeat(5, 160px);
 }
 
-/* =================================
-   6 PERSONAGENS
-================================= */
+/* 
+  6 PERSONAGENS
+*/
 
 .quantidade-6 {
-  grid-template-columns: repeat(3, 190px);
+  grid-template-columns: repeat(4, 190px);
 }
 
-/* =================================
-   7 PERSONAGENS
-================================= */
+/*
+  7 PERSONAGENS
+*/
 
 .quantidade-7 {
   grid-template-columns: repeat(4, 170px);
 }
 
-/* =================================
-   8 PERSONAGENS
-================================= */
+/*
+ 8 PERSONAGENS
+*/
 
 .quantidade-8 {
   grid-template-columns: repeat(4, 170px);
@@ -321,9 +306,9 @@ body {
   animation: aparecer 0.35s ease;
 }
 
-/* =========================
-   CARD
-========================= */
+/* 
+ CARD
+*/
 
 .personagem {
   position: relative;
@@ -355,85 +340,81 @@ body {
 }
 
 .moldura {
-    position: relative;
+  position: relative;
 
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    overflow: hidden;
+  overflow: hidden;
 
-    background: #20252c;
+  background: #20252c;
 
-    border: 1px solid #555e68;
+  border: 1px solid #555e68;
 }
 
 .moldura img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 
-    display: block;
+  display: block;
 
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .nome-personagem {
-    position: absolute;
+  position: absolute;
 
-    left: 0;
-    bottom: 0;
+  left: 0;
+  bottom: 0;
 
-    width: 100%;
+  width: 100%;
 
-    padding: 25px 5px 10px;
+  padding: 25px 5px 10px;
 
-    text-align: center;
+  text-align: center;
 
-    background: linear-gradient(
-        transparent,
-        rgba(0, 0, 0, 0.95)
-    );
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
 
-    color: white;
+  color: white;
 
-    font-size: 0.85rem;
+  font-size: 0.85rem;
 
-    font-weight: bold;
+  font-weight: bold;
 
-    text-transform: uppercase;
+  text-transform: uppercase;
 
-    letter-spacing: 1px;
+  letter-spacing: 1px;
 
-    z-index: 2;
+  z-index: 2;
 }
 
 .personagem::before {
-    content: "";
+  content: "";
 
-    position: absolute;
+  position: absolute;
 
-    inset: -3px;
+  inset: -3px;
 
-    border: 2px solid transparent;
+  border: 2px solid transparent;
 
-    pointer-events: none;
+  pointer-events: none;
 
-    z-index: 5;
+  z-index: 5;
 }
 
 .personagem:hover {
-    transform: scale(1.04);
+  transform: scale(1.04);
 
-    border-color: #fff;
+  border-color: #fff;
 
-    box-shadow:
-        0 0 0 2px #111,
-        0 0 20px rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0 0 0 2px #111,
+    0 0 20px rgba(255, 255, 255, 0.5);
 }
 
-
-/* =========================
-   IMAGEM
-========================= */
+/* 
+  IMAGEM
+*/
 
 .personagem img {
   width: 100%;
@@ -451,9 +432,9 @@ body {
   transform: scale(1.05);
 }
 
-/* =========================
-   EFEITO ESCURO NA IMAGEM
-========================= */
+/*
+ EFEITO ESCURO NA IMAGEM
+*/
 
 .personagem::after {
   content: "";
@@ -472,9 +453,9 @@ body {
   pointer-events: none;
 }
 
-/* =========================
-   NOME DO PERSONAGEM
-========================= */
+/*
+  NOME DO PERSONAGEM
+*/
 
 .personagem h3 {
   position: absolute;
@@ -500,9 +481,9 @@ body {
   text-shadow: 2px 2px 4px black;
 }
 
-/* =========================
+/*
    MENSAGEM INICIAL
-========================= */
+*/
 
 .mensagem {
   grid-column: 1 / -1;
@@ -522,9 +503,9 @@ body {
   font-size: 0.8rem;
 }
 
-/* =========================
-   ANIMAÇÃO
-========================= */
+/*
+ ANIMAÇÃO
+*/
 
 @keyframes aparecer {
   from {
@@ -540,9 +521,9 @@ body {
   }
 }
 
-/* =========================
-   TABLET
-========================= */
+/*
+  TABLET
+*/
 
 @media screen and (max-width: 850px) {
   .container {
@@ -554,9 +535,9 @@ body {
   }
 }
 
-/* =========================
-   CELULAR
-========================= */
+/*
+ CELULAR
+*/
 
 @media screen and (max-width: 600px) {
   body {
@@ -592,9 +573,9 @@ body {
   }
 }
 
-/* =========================
-   CELULAR PEQUENO
-========================= */
+/*
+CELULAR PEQUENO
+*/
 
 @media screen and (max-width: 380px) {
   .personagens {

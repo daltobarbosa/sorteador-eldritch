@@ -296,50 +296,6 @@ const btnLimpar = document.getElementById("btnLimpar");
 const resultado = document.getElementById("resultadoPersonagens");
 
 
-// FUNÇÃO DE SORTEIO
-
-/*function sortear() {
-
-    // Quantidade escolhida pelo usuário
-    const quantidadeEscolhida = Number(quantidade.value);
-
-
-    // Cria uma cópia da lista original
-    const listaEmbaralhada = [...personagens];
-
-
-    // Embaralha a lista
-    listaEmbaralhada.sort(() => Math.random() - 0.5);
-
-
-    // Pega somente a quantidade escolhida
-    const personagensSorteados =
-        listaEmbaralhada.slice(0, quantidadeEscolhida);
-
-
-    // Limpa o resultado anterior
-    resultado.innerHTML = "";
-
-
-    // Exibe os personagens sorteados
-    personagensSorteados.forEach(personagem => {
-
-    const div = document.createElement("div");
-
-    div.classList.add("personagem");
-
-    div.innerHTML = `
-        <img src="${personagem.imagem}" alt="${personagem.nome}">
-        <h3>${personagem.nome}</h3>
-    `;
-
-    resultado.appendChild(div);
-
-    });
-
-}
-*/
-
 function sortear() {
 
     const quantidadeEscolhida = Number(quantidade.value);
