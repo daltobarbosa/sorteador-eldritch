@@ -2,284 +2,284 @@
 
 const personagens = [
    {
-    nome: "Akachi",
+    nome: "Akachi Onyele",
     imagem: "imagens/01-akachi.png",
    },
 
    {
-    nome: "Charlie",
+    nome: "Charlie Kane",
     imagem: "imagens/02-charlie.png"
    },
 
    {
-    nome: "Diana",
+    nome: "Diana Stanley",
     imagem:"imagens/03-diana.png",
    },
 
    {
-    nome: "Jacqueline",
+    nome: "Jacqueline Fine",
     imagem: "imagens/04-jacqueline.png",
    },
 
    {
-    nome: "Jim",
+    nome: "Jim Culver",
     imagem: "imagens/05-jim.png",
    },
 
    {
-    nome: "Leo",
+    nome: "Leo Anderson",
     imagem: "imagens/06-leo.png",
    },
 
    {
-    nome: "Lily",
+    nome: "Lily Chen",
     imagem: "imagens/07-lily.png",
    },
 
    {
-    nome: "Lola",
+    nome: "Lola Hayes",
     imagem: "imagens/08-lola.png",
    },
 
    {
-    nome: "Mark",
+    nome: "Mark Harrigan",
     imagem: "imagens/09-mark.png",
    },
 
    {
-    nome: "Norman",
+    nome: "Norman Withers",
     imagem: "imagens/10-norman.png",
    },
 
    {
-    nome: "Silas",
+    nome: "Silas Marsh",
     imagem: "imagens/11-silas.png",
    },
 
    {
-    nome: "Trish",
+    nome: "Trish Scarborough",
     imagem: "imagens/12-trish.png",
    },
 
    // Montanhas da Loucura //
    {
-    nome: "Agnes",
+    nome: "Agnes Baker",
     imagem: "imagens/13-agnes.png",
    },
 
    {
-    nome: "Daisy",
+    nome: "Daisy Walker",
     imagem: "imagens/14-daisy.png",
    },
 
    {
-    nome: "Finn",
+    nome: "Finn Edwards",
     imagem: "imagens/15-finn.png",
    },
 
    {
-    nome: "George",
+    nome: "George Barnaby",
     imagem: "imagens/16-george.png",
    },
 
    {
-    nome: "Patrice",
+    nome: "Patrice Hathaway",
     imagem: "imagens/17-patrice.png",
    },
 
    {
-    nome: "Tommy",
+    nome: "Tommy Muldoon",
     imagem: "imagens/18-tommy.png",
    },
 
    {
-    nome: "Ursula",
+    nome: "Ursula Downs",
     imagem: "imagens/19-ursula.png",
    },
 
    {
-    nome: "Wilson",
+    nome: "Wilson Richards",
     imagem: "imagens/20-wilson.png",
    },
 
    // Vestígios Estranhos //
    {
-    nome: "Marie",
+    nome: "Marie Lambeau",
     imagem: "imagens/21-marie.png",
    },
 
    {
-    nome: "Liso",
+    nome: "'Liso' O'Toole",
     imagem: "imagens/22-liso.png",
    },
 
    {
-    nome: "Tony",
+    nome: "Tony Morgan",
     imagem: "imagens/23-tony.png",
    },
 
    {
-    nome: "Zoey",
+    nome: "Zoey Samaras",
     imagem: "imagens/24-zoey.png",
    },
 
    // Sob as Piramides //
    {
-    nome:"Hank",
+    nome:"Hank Samson",
     imagem: "imagens/25-hank.png",
    },
 
    {
-    nome: "Harvey",
+    nome: "Harvey Walters",
     imagem: "imagens/26-harvey.png",
    },
 
    {
-    nome: "Joe",
+    nome: "Joe Diamond",
     imagem: "imagens/27-joe.png",
    },
 
    {
-    nome: "Mandy",
+    nome: "Mandy Thompson",
     imagem: "imagens/28-mandy.png",
    },
 
    {
-    nome: "Minh",
+    nome: "Minh Thi Phan",
     imagem: "imagens/29-minh.png",
    },
 
    {
-    nome: "Mary",
+    nome: "Irmã Mary",
     imagem: "imagens/30-mary.png",
    },
 
    {
-    nome: "Monterey",
+    nome: "Monterey Jack",
     imagem: "imagens/31-monterey.png",
    },
 
    {
-    nome: "Rex",
+    nome: "Rex Murphy",
     imagem: "imagens/32-rex.png",
    },
 
    // Sinais de Carcosa //
    {
-    nome: "Dexter",
+    nome: "Dexter Drake",
     imagem: "imagens/33-dexter.png",
    },
 
    {
-    nome: "Jenny",
+    nome: "Jenny Barnes",
     imagem: "imagens/34-jenny.png",
    },
 
    {
-    nome: "Michael",
+    nome: "Michael McGlen",
     imagem: "imagens/35-michael.png",
    },
 
    {
-    nome: "Wendy",
+    nome: "Wendy Adams",
     imagem: "imagens/36-wendy.png",
    },
 
    // As Terras Oníricas //
    {
-    nome: "Amanda",
+    nome: "Amanda Sharpe",
     imagem: "imagens/37-amanda.png",
    },
 
    {
-    nome: "Carolyn",
+    nome: "Carolyn Fern",
     imagem: "imagens/38-carolyn.png",
    },
    
    {
-    nome: "Darrell",
+    nome: "Darrell Simmons",
     imagem: "imagens/39-darrell.png",
    },
 
    {
-    nome: "Gloria",
+    nome: "Gloria Goldberg",
     imagem: "imagens/40-gloria.png",
    },
 
    {
-    nome: "Kate",
+    nome: "Kate Winthrop",
     imagem: "imagens/41-kate.png",
    },
 
    {
-    nome: "Luke",
+    nome: "Luke Robinson",
     imagem: "imagens/42-luke.png",
    },
 
    {
-    nome: "Vincent",
+    nome: "Vincent Lee",
     imagem: "imagens/43-vincent.png",
    },
 
    {
-    nome: "William",
+    nome: "William Yorick",
     imagem: "imagens/44-william.png",
    },
 
    // Cidades em Ruinas //
    {
-    nome: "Peter",
+    nome: "Peter 'Chaminé'",
     imagem: "imagens/45-peter.png",
    },
 
    {
-    nome: "Bob",
+    nome: "Bob Jenkins",
     imagem: "imagens/46-bob.png",
    },
 
    {
-    nome: "Rita",
+    nome: "Rita Young",
     imagem: "imagens/47-rita.png",
    },
 
    {
-    nome: "Roland",
+    nome: "Roland Banks",
     imagem: "imagens/48-roland.png",
    },
 
    // Máscaras de Nyarlathotep //
    {
-    nome: "Agatha",
+    nome: "Agatha Crane",
     imagem: "imagens/49-agatha.png",
    },
 
    {
-    nome: "Calvin",
+    nome: "Calvin Wright",
     imagem: "imagens/50-calvin.png",
    },
 
    {
-    nome: "Carson",
+    nome: "Carson Sinclair",
     imagem: "imagens/51-carson.png",
    },
 
    {
-    nome: "Daniela",
+    nome: "Daniela Reyes",
     imagem: "imagens/52-daniela.png",
    },
 
    {
-    nome: "Mateo",
+    nome: "Padre Mateo",
     imagem: "imagens/53-mateo.png",
    },
 
    {
-    nome: "Preston",
+    nome: "Preston Fairmont",
     imagem: "imagens/54-preston.png",
    },
     
    {
-    nome: "Sefina",
+    nome: "Sefina Rousseau",
     imagem: "imagens/55-sefina.png",
    }
 ];
@@ -298,7 +298,7 @@ const resultado = document.getElementById("resultadoPersonagens");
 
 // FUNÇÃO DE SORTEIO
 
-function sortear() {
+/*function sortear() {
 
     // Quantidade escolhida pelo usuário
     const quantidadeEscolhida = Number(quantidade.value);
@@ -338,7 +338,51 @@ function sortear() {
     });
 
 }
+*/
 
+function sortear() {
+
+    const quantidadeEscolhida = Number(quantidade.value);
+
+    // Copia a lista
+    const listaEmbaralhada = [...personagens];
+
+    // Embaralha
+    listaEmbaralhada.sort(() => Math.random() - 0.5);
+
+    // Seleciona a quantidade desejada
+    const personagensSorteados =
+        listaEmbaralhada.slice(0, quantidadeEscolhida);
+
+    // Limpa resultado
+    resultado.innerHTML = "";
+
+    // Define o layout de acordo com a quantidade
+    resultado.className = `personagens quantidade-${quantidadeEscolhida}`;
+
+    // Cria as molduras
+    personagensSorteados.forEach(personagem => {
+
+        const card = document.createElement("div");
+
+        card.classList.add("personagem");
+
+        card.innerHTML = `
+            <div class="moldura">
+                <img 
+                    src="${personagem.imagem}" 
+                    alt="${personagem.nome}"
+                >
+
+                <div class="nome-personagem">
+                    ${personagem.nome}
+                </div>
+            </div>
+        `;
+
+        resultado.appendChild(card);
+    });
+}
 
 // FUNÇÃO PARA LIMPAR
 
